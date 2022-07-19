@@ -30,3 +30,4 @@ I don't remember how Zowie is handling errors but I have 3 scenarion where only 
 3) If somehow we would try to access non existing endpoint that should be fetched with errorhandler 404. I guess this makes no use when using the Zowie interface as we'll be hardcoding the endpoint but it's there just in case that's not always true.
 
 
+1 Iteam I'm not proud of is the "api_key" as a global var that is in the code. In git repo this value is having a placeholder that requires replacing with the correct API key
